@@ -1,6 +1,4 @@
 # passdict
-Pass a Python dictionary to the C API and print out its keys/value and their types.
 
-This code iterates over the list of keys and gets the corresponding values and reports their 
-types and data if they are string (Python 3 equivalent being unicode) or 
-long. Extension to other types looks pretty straightforward.
+This code iterates over a dictionary which contains string-valued keys and the data types of their values.
+If the value type is also a dictionary, it iterates over levels.s
